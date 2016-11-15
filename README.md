@@ -13,12 +13,18 @@
   
 <a name Cú_Pháp><a\>
 ###2.Cú Pháp:  
-` <Kiểu_trả_về>  <tên_hàm> ( [khai báo các tham số hình thức])  
+` <Kiểu_trả_về>  <tên_hàm> ( [khai báo các tham số hình thức])
+  
 {  
+  
             [Khai báo các biến cục bộ]  
+              
             [Các câu lệnh]  
-            [return[biểu thức];     
+              
+            [return[biểu thức];  
+              
 }  
+
 `  
 *Giải thích:*  
 -      <Kiểu_trả_về>: giá trị kiểu dữ liệu của dữ liệu sẽ trả về cho hàm  
@@ -31,12 +37,19 @@
 Ví dụ 1: Hàm tìm giá trị lớn nhất giữa hai giá trị
   
 `int tim_max(int a, int b)  
-{  
+  
+{   
+  
             if(a>=b)  
+              
                         return a;  
+                          
             else  
+              
                         return b;  
+                          
 }  
+  
 `  
 <a name con_trỏ><a\>  
 ###3.Hàm với con trỏ  
