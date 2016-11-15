@@ -1,10 +1,14 @@
 **Trần Thị Ngọc**  
+
 ---
+
 ##Báo cáo học hàm  
 [Định Nghĩa](#Định_Nghĩa)  
 [Cú Pháp](#Cú_pháp)  
-[Hàm và con trỏ](#con_trỏ) 
----
+[Hàm và con trỏ](#con_trỏ)  
+
+---  
+
 
 <a name Định_Nghĩa><a\>  
 ###1.Định Nghĩa  
@@ -12,7 +16,9 @@
 *Đặc điểm:*  
 - Là một đơn vị độc lập của chương trình.  
 - không xây dựng hai hay nhiều hàm lồng nhau.  
----
+
+---  
+
   
 <a name Cú_Pháp><a\>
 ###2.Cú Pháp:  
@@ -37,6 +43,7 @@
 -      `[Khai báo các biến cục bộ]:` khai báo các biến cục bộ, các biến này chỉ có tác dụng trong nội bộ hàm  
 -      `[return]:` là lệnh thực hiện gán giá trị trả về cho hàm  
 -      `[biểu thức]:` là giá trị trả về cho hàm, có thể là biến, hằng, biểu thức nhưng phải có giá trị xác định và có kiểu dữ liệu là kiểu đã khai báo cho hàm.  
+
 ---
    
 Ví dụ 1: Hàm tìm giá trị lớn nhất giữa hai giá trị
@@ -57,7 +64,8 @@ int tim_max(int a, int b)
 }  
   
 ```  
----
+---  
+
 <a name con_trỏ><a\>  
 ###3.Hàm với con trỏ  
 *-  Hàm có đối con trỏ (tham chiếu):*
